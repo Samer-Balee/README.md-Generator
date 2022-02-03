@@ -28,13 +28,13 @@ const questions = [
     {
         type: "input",
         message: "Enter contribution guidelines: ",
-        name: "contribute"
+        name: "contribution"
 
     },
     {
         type: "list",
-        message: "Choose a license for the project: ",
-        name: "licenses",
+        message: "Choose a licence for the project: ",
+        name: "licence",
         Choices: ['' , '' , ''],
     },
     {
@@ -45,7 +45,7 @@ const questions = [
     {
         type: "input",
         message: "Enter your Email address: ",
-        name: "username"
+        name: "email"
     }, 
     {
         type: "input",
