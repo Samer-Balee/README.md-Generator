@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const markdown = require('./utils/generateMarkdown');
-// const generateMarkdown = require('./utils/generateMarkdown');
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -58,8 +58,8 @@ const questions = [
 
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {
-//     fs.writeFile(('README.md'  , data) , (err) => 
-//     err ? console.log(err) : console.log('Succefully created README file')
+//     fs.writeFile((fileName , data) , (err) => 
+//     err ? console.log(err) : console.log('Success! Your README.md file has been generated')
 //     );
 // }
 
@@ -67,7 +67,7 @@ const questions = [
 function init() {
 inquirer
 .prompt(questions)
-.then((answers) => fs.writeFileSync('README.md' , markdown(answers)))
+.then((answers) => fs.writeFileSync('./utils/README.md' , markdown(answers)))
 .then(() => console.log('Successfully wrote to README.md'))
 .catch((err) => console.error(err));
 }
