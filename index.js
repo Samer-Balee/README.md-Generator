@@ -36,7 +36,7 @@ const questions = [
         type: "list",
         message: "Choose a license for the project: ",
         name: "license",
-        choices: ['No license' , 'MIT' , 'GNU APGL v3' , 'Boost Software License 1.0' , 'Apache 2.0 License'],
+        choices: ['No license', 'MIT', 'GNU APGL v3', 'Boost Software License 1.0', 'Apache 2.0 License'],
     },
     {
         type: "input",
@@ -47,7 +47,7 @@ const questions = [
         type: "input",
         message: "Enter your Email address: ",
         name: "email"
-    }, 
+    },
     {
         type: "input",
         message: "Enter any tests you are running for your project: ",
@@ -57,19 +57,19 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile((fileName , data) , (err) => 
-//     err ? console.log(err) : console.log('Success! Your README.md file has been generated')
-//     );
-// }
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.log(err) : console.log('Success! Your README.md file has been generated')
+    );
+}
 
 // Create a function to initialize app
 function init() {
-inquirer
-.prompt(questions)
-.then((answers) => fs.writeFileSync('./utils/README.md' , markdown(answers)))
-.then(() => console.log('Successfully wrote to README.md'))
-.catch((err) => console.error(err));
+    inquirer
+        .prompt(questions)
+        .then((answers) => writeToFile('./utils/README.md', markdown(answers)))
+        .then(() => console.log('Successfully wrote to README.md'))
+        .catch((err) => console.error(err));
 }
 // Function call to initialize app
 init();

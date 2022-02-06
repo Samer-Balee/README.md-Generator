@@ -1,33 +1,33 @@
 
-  # dsadw [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # sadds [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-   dwda
+   sad
 
   ## Tables of Contents
   * [Instalation](#instalation)
   * [Usage](#usage)
-  * [Licence](#licence)
+  * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
    
   ## Instalation
-   sadsda
+   sds
 
   ## Usage
-   sadasd
+   dsad
   
   ## License
-   Link to license information [MIT](https://choosealicense.com/licenses/mit/)
+   For information about this license visit: [MIT](https://choosealicense.com/licenses/mit/)
 
   ## Contributing
-   dasdw
+   dsd
 
   ## Tests
-   ads
+   sds
 
   ## Questions
-  My GitHub link: [dadw](https://github.com/dadw)
+  My GitHub link: [sd](https://github.com/sd)
 
-  If you have any questions, please e-mail me at daw
+  If you have any questions, please e-mail me at sd

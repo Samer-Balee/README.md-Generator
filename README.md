@@ -11,12 +11,12 @@ You can quickly and easily create a README file by using a command-line applicat
  * 
 
 ## Tables of Contents
-* [Description](#description)
+
 * [Instalation](#instalation)
-* [User Story](#userstory)
-* [Acceptance Criteria](#acceptancecriteria)
+* [User Story](#user-story)
+* [Acceptance Criteria](#acceptance-criteria)
 * [Usage](#usage)
-* [Instalation](#instalation)
+
 
 ## Instalation
 

@@ -62,7 +62,7 @@ function renderLicenseSection(license) {
   if (license == 'No license'){
     return 'No license';
   } else {
-    const licenseSection = `Link to license information [${license}](${renderLicenseLink(license)})`;
+    const licenseSection = `For information about this license visit: [${license}](${renderLicenseLink(license)})`;
     return licenseSection;
   }
 }
@@ -78,7 +78,7 @@ function generateMarkdown({title , description , installation , usage ,license ,
   ## Tables of Contents
   * [Instalation](#instalation)
   * [Usage](#usage)
-  * [Licence](#licence)
+  * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
