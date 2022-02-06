@@ -56,7 +56,7 @@ const questions = [
 ];
 
 
-// TODO: Create a function to write README file
+//  Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log('Success! Your README.md file has been generated')
@@ -67,7 +67,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions)
-        .then((answers) => writeToFile('./dist/README.md', markdown(answers)))
+        .then((answers) => writeToFile('./assets/dist/README.md', markdown(answers)))
         .then(() => console.log('Successfully wrote to README.md'))
         .catch((err) => console.error(err));
 }
