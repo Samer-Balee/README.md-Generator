@@ -29,7 +29,7 @@ You can quickly and easily create a README file by using a command-line applicat
 
 ## Instalation
 
-             ![gif](assets/record/gif.gif)
+![gif](assets/record/gif.gif)
 
 GitHub link : [Samer-Balee](https://github.com/Samer-Balee/README.md-Generator).
 
