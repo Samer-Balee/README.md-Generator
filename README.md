@@ -29,6 +29,8 @@ You can quickly and easily create a README file by using a command-line applicat
 
 ## Instalation
 
+             ![gif](assets/record/gif.gif)
+
 GitHub link : [Samer-Balee](https://github.com/Samer-Balee/README.md-Generator).
 
 ## User Story
@@ -70,17 +72,23 @@ THEN I am taken to the corresponding section of the README
 
 * Including packages needed for this application and array of questions for user input:
 
+    ![screenshot-1](assets/images/screenshot-1.PNG)
 
 * Creating a function to generate markdown for README:
 
+    ![screenshot-2](assets/images/screenshot-2.PNG)
 
 * Create a function to initialize app and a function to write README file:
 
+    ![screenshot-3](assets/images/screenshot-3.PNG)
 
 * Creating a function that returns the license link and Creating a function that returns the license section of README:
 
+    ![screenshot-4](assets/images/screenshot-4.PNG)
 
 * Runing the app in terminal:
+
+    ![screenshot-5](assets/images/screenshot-5.PNG)
 
 
 
