@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const markdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = [
     {
         type: "input",
@@ -36,7 +36,7 @@ const questions = [
         type: "list",
         message: "Choose a license for the project: ",
         name: "license",
-        choices: ['No license' , 'MIT' , 'GNU APGLv3' , 'Boost Software License 1.0' , 'Apache 2.0 License'],
+        choices: ['No license' , 'MIT' , 'GNU APGL v3' , 'Boost Software License 1.0' , 'Apache 2.0 License'],
     },
     {
         type: "input",
@@ -63,7 +63,7 @@ const questions = [
 //     );
 // }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
 inquirer
 .prompt(questions)
