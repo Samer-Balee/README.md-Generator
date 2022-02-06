@@ -36,7 +36,7 @@ const questions = [
         type: "list",
         message: "Choose a license for the project: ",
         name: "license",
-        choices: ['No license', 'MIT', 'GNU APGL v3', 'Boost Software License 1.0', 'Apache 2.0 License'],
+        choices: ['No license', 'MIT', 'GNU APGL v3', 'Boost Software License 1.0', 'Apache 2.0 License' , 'Mozilla Public License 2.0'],
     },
     {
         type: "input",
@@ -67,7 +67,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions)
-        .then((answers) => writeToFile('./utils/README.md', markdown(answers)))
+        .then((answers) => writeToFile('./dist/README.md', markdown(answers)))
         .then(() => console.log('Successfully wrote to README.md'))
         .catch((err) => console.error(err));
 }

@@ -20,6 +20,9 @@ function renderLicenseBadge(license) {
       case  'Apache 2.0 License' :
         licenseBadge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
         break;
+      case  'Mozilla Public License 2.0' :
+        licenseBadge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+        break;
         default:
         console.log('Check your choice!');
   
@@ -38,16 +41,19 @@ function renderLicenseLink(license) {
         licenseLink = '';
       break;
       case  'MIT' :
-        licenseLink = 'https://choosealicense.com/licenses/mit/';
+        licenseLink = 'https://opensource.org/licenses/MIT';
         break;  
       case  'GNU APGL v3' :
-        licenseLink = 'https://choosealicense.com/licenses/agpl-3.0/';
+        licenseLink = 'https://www.gnu.org/licenses/agpl-3.0';
         break;  
       case  'Boost Software License 1.0' :
-        licenseLink = 'https://choosealicense.com/licenses/bsl-1.0/';
+        licenseLink = 'https://www.boost.org/LICENSE_1_0.txt';
         break;  
       case  'Apache 2.0 License' :
-        licenseLink = 'https://choosealicense.com/licenses/apache-2.0/';
+        licenseLink = 'https://opensource.org/licenses/Apache-2.0';
+        break;
+      case  'Mozilla Public License 2.0' :
+        licenseLink = 'https://opensource.org/licenses/MPL-2.0';
         break;
         default:
         console.log('Check your choice!');
